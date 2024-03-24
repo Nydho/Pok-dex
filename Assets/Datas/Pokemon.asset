@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17fad5e7fb68d948aa9a8eacfb76ce8, type: 3}
+  m_Name: Pokemon
+  m_EditorClassIdentifier: 
+  datas:
+  - Name: Gigalith
+    number: 526
+    Type: Roche
+    Height: 1,7 m
+    Weight: 260,0 kg
+    Abilities: "Fermet\xE9 - T\xEAte de Roc"
+    Icon: {fileID: 0}
+    Description: "Il se forme en absorbant du sable. Il s'\xE9crase ses ennemis sous
+      ses bras massifs."
+    stats:
+      pv: 85
+      atk: 135
+      def: 130
+      atkSpe: 60
+      defSpe: 80
+      speed: 25
+  - Name: Armaldo
+    number: 348
+    Type: Roche - Insecte
+    Height: 1,5 m
+    Weight: 68,2 kg
+    Abilities: "Fermet\xE9 - Hyper Cutter"
+    Icon: {fileID: 21300000, guid: 6ef9976aa79a4e7459d59bbd85069826, type: 3}
+    Description: "Ce Pok\xE9mon \xE9tait un ancien habitant des mers. Il s'est adapt\xE9
+      \xE0 la vie sur terre."
+    stats:
+      pv: 75
+      atk: 125
+      def: 100
+      atkSpe: 70
+      defSpe: 80
+      speed: 45
+  - Name: Plumeline
+    number: 741
+    Type: Plante - Vol
+    Height: 0,8 m
+    Weight: 38,0 kg
+    Abilities: "\xC9cran Poudre - Pied Confus"
+    Icon: {fileID: 21300000, guid: 25695e1d418003642b4d14f8e3d32c21, type: 3}
+    Description: "Il recueille le pollen des fleurs pour confectionner une poudre
+      soporifique qu'il stocke dans son \xE9ventail."
+    stats:
+      pv: 75
+      atk: 98
+      def: 70
+      atkSpe: 98
+      defSpe: 70
+      speed: 93
+  - Name: Dracaufeu
+    number: 6
+    Type: Feu - Vol
+    Height: 1,7 m
+    Weight: 90,5 kg
+    Abilities: Brasier - Torche
+    Icon: {fileID: 21300000, guid: f8f83ca576fecc2488413077ceb2b8a9, type: 3}
+    Description: "Ce Pok\xE9mon crache un feu chaud \xE0 plus de 1 000 degr\xE9s
+      Celsius."
+    stats:
+      pv: 78
+      atk: 84
+      def: 78
+      atkSpe: 109
+      defSpe: 85
+      speed: 100
+  - Name: Fantyrm
+    number: 708
+    Type: Spectre
+    Height: 0,8 m
+    Weight: 7,7 kg
+    Abilities: "D\xE9guisement - Infiltration"
+    Icon: {fileID: 21300000, guid: 8031f0dca7653e347b4a8e923432b104, type: 3}
+    Description: "Il est capable de prendre l'apparence de n'importe quel objet,
+      mais il \xE9met toujours un faible cri."
+    stats:
+      pv: 59
+      atk: 110
+      def: 60
+      atkSpe: 95
+      defSpe: 79
+      speed: 110
+  - Name: Gallame
+    number: 475
+    Type: Psy - Combat
+    Height: 1,6 m
+    Weight: 52,0 kg
+    Abilities: Lame garde - Corps Sain
+    Icon: {fileID: 21300000, guid: 527c6ad55baf2ee4481689891065c8a7, type: 3}
+    Description: "Il d\xE9tecte les \xE9motions de son adversaire gr\xE2ce \xE0 ses
+      cornes flottantes et les absorbe dans son corps."
+    stats:
+      pv: 68
+      atk: 125
+      def: 65
+      atkSpe: 65
+      defSpe: 115
+      speed: 80
+  - Name: Mateloutre
+    number: 812
+    Type: Eau
+    Height: 0,7 m
+    Weight: 8,5 kg
+    Abilities: Torrent - Nappe Boue
+    Icon: {fileID: 21300000, guid: d41fe3762d0c649409d5e7f464483fa7, type: 3}
+    Description: "Il utilise sa fourrure pour absorber l'eau, ce qui lui permet de
+      cr\xE9er un filet d'eau pour attaquer."
+    stats:
+      pv: 75
+      atk: 65
+      def: 55
+      atkSpe: 65
+      defSpe: 55
+      speed: 69
+  - Name: Lucario
+    number: 448
+    Type: Combat - Acier
+    Height: 1,2 m
+    Weight: 54,0 kg
+    Abilities: Attention - Impassible
+    Icon: {fileID: 21300000, guid: 4b23295781bd15a4aa5432e2d5ab058a, type: 3}
+    Description: "On dit qu\u2019il peut rep\xE9rer ses ennemis, m\xEAme lorsqu\u2019ils
+      sont invisibles, car il ressent leur aura."
+    stats:
+      pv: 70
+      atk: 110
+      def: 70
+      atkSpe: 115
+      defSpe: 70
+      speed: 90
+  - Name: Voltorbe
+    number: 100
+    Type: Electrique
+    Height: 0,5 m
+    Weight: 10,4 kg
+    Abilities: Statik - Paratonnerre
+    Icon: {fileID: 21300000, guid: 16e9051c5ecaea34ebc1d120cc9e5995, type: 3}
+    Description: "Il stocke de l'\xE9lectricit\xE9 \xE0 l'int\xE9rieur de son corps.
+      S'il est en danger, il s'autod\xE9truit pour se d\xE9fendre."
+    stats:
+      pv: 40
+      atk: 30
+      def: 50
+      atkSpe: 55
+      defSpe: 55
+      speed: 100
+  - Name: Barpau
+    number: 129
+    Type: Eau
+    Height: 0,6 m
+    Weight: 7,4 kg
+    Abilities: Glissade - Sniper
+    Icon: {fileID: 21300000, guid: c4c393169e68cd64cad9ed38b2c7c052, type: 3}
+    Description: "Il nage \xE0 contre-courant des rivi\xE8res en groupe. Quand il
+      a faim, il avale tout ce qui se trouve sur son passage."
+    stats:
+      pv: 20
+      atk: 10
+      def: 55
+      atkSpe: 15
+      defSpe: 20
+      speed: 80
+  - Name: Regirock
+    number: 377
+    Type: Roche
+    Height: 1,7 m
+    Weight: 230,0 kg
+    Abilities: "Corps Sain - Fermet\xE9"
+    Icon: {fileID: 21300000, guid: d04032ec3c9db8244a5ec901e8f2c91b, type: 3}
+    Description: "Ce Pok\xE9mon est compos\xE9 de roches. Il se r\xE9g\xE9n\xE8re
+      en absorbant l'eau et les min\xE9raux."
+    stats:
+      pv: 80
+      atk: 100
+      def: 200
+      atkSpe: 50
+      defSpe: 100
+      speed: 50
+  - Name: Ho-Oh
+    number: 250
+    Type: Feu - Vol
+    Height: 3,8 m
+    Weight: 199,0 kg
+    Abilities: "Pression - R\xE9g\xE9-Force"
+    Icon: {fileID: 21300000, guid: 23951f8f79c2ec94da1e9d4b1f4b7420, type: 3}
+    Description: "Il a la capacit\xE9 de r\xE9g\xE9n\xE9rer la vie des Pok\xE9mon
+      morts gr\xE2ce \xE0 ses ailes aux sept couleurs."
+    stats:
+      pv: 106
+      atk: 130
+      def: 90
+      atkSpe: 110
+      defSpe: 154
+      speed: 90
+  - Name: Coxyclaque
+    number: 617
+    Type: Insecte - Acier
+    Height: 1,0 m
+    Weight: 33,0 kg
+    Abilities: "T\xEAte de Fer - Essaim"
+    Icon: {fileID: 21300000, guid: 0b103cf996832ef449c3094a3432f0d5, type: 3}
+    Description: Il lance ses griffes comme des lames tranchantes pour attaquer ses
+      adversaires.
+    stats:
+      pv: 70
+      atk: 95
+      def: 125
+      atkSpe: 45
+      defSpe: 75
+      speed: 85
+  - Name: Strassie
+    number: 882
+    Type: Psy - Roche
+    Height: 1,6 m
+    Weight: 775,0 kg
+    Abilities: "D\xE9guisement - T\xEAte de Roc"
+    Icon: {fileID: 21300000, guid: 4e66e986fc205c045a06dd5a334424fa, type: 3}
+    Description: "Il contr\xF4le les particules qui flottent dans l'air pour se camoufler
+      et \xE9chapper \xE0 ses ennemis."
+    stats:
+      pv: 110
+      atk: 100
+      def: 125
+      atkSpe: 100
+      defSpe: 125
+      speed: 70
+  - Name: Marill
+    number: 183
+    Type: "Eau - F\xE9e"
+    Height: 0,4 m
+    Weight: 8,5 kg
+    Abilities: "M\xE9dic Nature - Coloforce"
+    Icon: {fileID: 21300000, guid: b74030c29cde8e54285955b9a6b3dd0e, type: 3}
+    Description: "Il utilise sa queue pour d\xE9tecter les courants d'eau et se d\xE9placer
+      sans aucun probl\xE8me dans les rivi\xE8res."
+    stats:
+      pv: 70
+      atk: 20
+      def: 50
+      atkSpe: 20
+      defSpe: 50
+      speed: 40
